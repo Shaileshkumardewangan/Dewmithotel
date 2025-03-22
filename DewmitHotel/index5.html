@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Dewmit Hotel</h1>
+        </div>
+       <div class="attributes">
+            <a class="au" href="index1.html">Home</a>
+            <a class="au" href="index2.html">About</a>
+            <a class="au" href="index3.html">Food</a>
+            <a class="au" href="index4.html">Book Now</a>
+            <a class="au" href="index5.html">Login</a>
+        </div>
+        <button class="menu">
+            <img src="menubr2.jpg" alt="" class="menuimage">
+        </button>
+    </nav>
+    <div id="sideNav" class="side-nav">
+     <button class="closebtn" onclick="closeNav()">&times;</button>
+     <a href="index1.html">Home</a>
+     <a href="index2.html">About</a>
+     <a href="index3.html">Food</a>
+     <a href="index4.html">Book Now</a>
+     <a href="index5.html">Login</a>
+    </div>
+    
+    <!-- Login Part -->
+    <div class="container">
+        <div class="login-box">
+            <h2>Management Login</h2>
+            <form id="transplantLoginForm">
+                <div class="textbox">
+                    <input type="text" placeholder="Username" id="transplantUsername" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Password" id="transplantPassword" required>
+                </div>
+                <input type="submit" class="btn" value="Login">
+            </form>
+            <p id="transplantErrorMessage"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+ <footer>
+    <div class="foot-panel1">
+        <ul>
+            <p>About Us</p>
+            <a href="index6.html">Discount Offer</a>
+            <a  href="index7.html">Success Stories</a>
+            <a href="index8.html">Client Service</a>
+        </ul>
+        <ul>
+            <p>Help</p>
+            <a  href="index9.html">Feedback</a>
+            <a href="index10.html">Complaints</a>
+            <a href="index11.html">Customer Care</a>
+        </ul>
+        <ul>
+            <p>SocialLinks</p>
+            <a href="https://www.youtube.com/"><img id="jpg" src="youtube1.jpg" height="20" width="30"></a>
+            <a href="https://www.facebook.com/login/"><img id="jpg" src="f1.jpg" height="20" width="30"></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><img id="jpg" src="insta1.jpg" height="20" width="30"></a>
+        </ul>
+    </div>
+    <div class="foot-panel2">
+            <a href="index12.html"><b>Terms & Condition</b></a>
+            <a href="index13.html"><b>| Privacy Policy</b></a>  
+        <br>
+            copyright © 2024
+    </div>
+  </footer>    
+</body>
+<script src="login.js"></script>
+</html>

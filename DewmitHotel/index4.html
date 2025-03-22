@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now page</title>
+    <link rel="stylesheet" href="Booknow.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Dewmit Hotel</h1>
+        </div>
+       <div class="attributes">
+            <a class="au" href="index1.html">Home</a>
+            <a class="au" href="index2.html">About</a>
+            <a class="au" href="index3.html">Food</a>
+            <a class="au" href="index4.html">Book Now</a>
+            <a class="au" href="index5.html">Login</a>
+        </div>
+        <button class="menu">
+            <img src="menubr2.jpg" alt="" class="menuimage">
+        </button>
+</nav>
+<div id="sideNav" class="side-nav">
+     <button class="closebtn" onclick="closeNav()">&times;</button>
+     <a href="index1.html">Home</a>
+     <a href="index2.html">About</a>
+     <a href="index3.html">Food</a>
+     <a href="index4.html">Book Now</a>
+     <a href="index5.html">Login</a>
+</div>
+<div class="container">
+    <div class="apply_here">
+        <h1>BOOK NOW</h1>
+        <form action="book_now.php" method="post">
+            <div class="form_box">
+                <div class="form_control">
+                    <label for="first_name">First Name</label>
+                    <input id="first_name" name="first_name" placeholder="First Name" required>
+                </div>
+                <div class="form_control">
+                    <label for="last_name">Last Name</label>
+                    <input id="last_name" name="last_name" placeholder="Last Name" required>
+                </div>
+                <div class="form_control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+                <div class="form_control">
+                    <label for="room_type">Select Your Hotel</label>
+                    <select id="room_type" name="room_type" required>
+                        <option value="">Select Hotel</option>
+                        <option value="AC rooms">Grand Dhillon Bhilai</option>
+                        <option value="Non AC rooms">Abhinandan Palaces Durg</option>
+                        <option value="TV rooms">The Roman Durg</option>
+                        <option value="furniture rooms">Amit International Bhilai</option>
+                        <option value="furniture rooms">Prithvi Palace Durg</option>
+                    </select>
+                </div>
+                <div class="form_control">
+                    <label for="room_type">Select Your Room</label>
+                    <select id="room_type" name="room_type" required>
+                        <option value="">Select Room</option>
+                        <option value="AC rooms">AC Rooms</option>
+                        <option value="Non AC rooms">Non-AC Rooms</option>
+                        <option value="furniture rooms">Furniture Rooms</option>
+                    </select>
+                </div>
+                <div class="form_control">
+                    <label for="room_type">Select Room Availibility</label>
+                    <select id="room_type" name="room_type" required>
+                        <option value="">Select Members</option>
+                        <option value="AC rooms">Single Person</option>
+                        <option value="Non AC rooms">Couples</option>
+                        <option value="furniture rooms">Family</option>
+                    </select>
+                </div>
+                <div class="form_control">
+                    <label for="check_in_date">Check-in Date</label>
+                    <input type="date" id="check_in_date" name="check_in_date" required>
+                </div>
+                <div class="form_control">
+                    <label for="check_out_date">Check-out Date</label>
+                    <input type="date" id="check_out_date" name="check_out_date" required>
+                </div>
+            </div>
+            <div class="button_type">
+                <button type="submit">Submit Now</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="foot-panel1">
+            <ul>
+                <p>About Us</p>
+                <a href="index6.html">Discount Offer</a>
+                <a  href="index7.html">Success Stories</a>
+                <a href="index8.html">Client Service</a>
+            </ul>
+            <ul>
+                <p>Help</p>
+                <a  href="index9.html">Feedback</a>
+                <a href="index10.html">Complaints</a>
+                <a href="index11.html">Customer Care</a>
+            </ul>
+            <ul>
+                <p>SocialLinks</p>
+                <a href="https://www.youtube.com/"><img id="jpg" src="youtube1.jpg" height="20" width="30"></a>
+                <a href="https://www.facebook.com/login/"><img id="jpg" src="f1.jpg" height="20" width="30"></a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en"><img id="jpg" src="insta1.jpg" height="20" width="30"></a>
+            </ul>
+        </div>
+        <div class="foot-panel2">
+                <a href="index12.html"><b>Terms & Condition</b></a>
+                <a href="index13.html"><b>| Privacy Policy</b></a>  
+            <br>
+                copyright © 2024
+        </div>
+      </footer>
+    
+</body>
+<script src="booknow.js"></script>
+</html>

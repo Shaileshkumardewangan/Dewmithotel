@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complain</title>
+    <link rel="stylesheet" href="complain.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Dewmit Hotel</h1>
+        </div>
+       <div class="attributes">
+            <a class="au" href="index1.html">Home</a>
+            <a class="au" href="index2.html">About</a>
+            <a class="au" href="index3.html">Food</a>
+            <a class="au" href="index4.html">Book Now</a>
+            <a class="au" href="index5.html">Login</a>
+        </div>
+        <button class="menu">
+            <img src="menubr2.jpg" alt="" class="menuimage">
+        </button>
+    </nav>
+    <div id="sideNav" class="side-nav">
+     <button class="closebtn" onclick="closeNav()">&times;</button>
+     <a href="index1.html">Home</a>
+     <a href="index2.html">About</a>
+     <a href="index3.html">Food</a>
+     <a href="index4.html">Book Now</a>
+     <a href="index5.html">Login</a>
+    </div>
+    
+    <div class="complaints-form">
+        <h2>Complaints Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="complaint">Complaint:</label>
+                <textarea id="complaint" name="complaint" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="resolution">Desired Resolution:</label>
+                <textarea id="resolution" name="resolution" required></textarea>
+            </div>
+            <button type="submit">Submit Complaint</button>
+        </form>
+    </div>
+</body>
+<script src="complain.js"></script>
+</html>
